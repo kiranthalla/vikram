@@ -1,0 +1,23 @@
+package mahesh1;
+
+import java.util.Scanner;
+
+public class kiran1
+{
+	public static void main(String[] args)
+	{
+		Scanner Scan =new Scanner(System.in);
+	int n=Scan.nextInt();
+    int m=Scan.nextInt();
+    int i=n*m;
+    int j=n+m;
+    if(n%2 ==0 && m%2 ==0)
+    {
+	System.out.println(i);
+    }
+    else
+    {
+    System.out.println(j);
+	}
+}
+}

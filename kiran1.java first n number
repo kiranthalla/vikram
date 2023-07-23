@@ -1,0 +1,15 @@
+package mahesh1;
+
+import java.util.Scanner;
+
+public class kiran1
+{
+	public static void main(String[] args) 
+	{
+		Scanner scan =new Scanner(System.in);
+		int n=scan.nextInt();
+		int i;
+		for(i=1;i<=n;i++)
+           System.out.println(i);	
+		}
+}

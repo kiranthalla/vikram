@@ -1,0 +1,15 @@
+package mahesh1;
+
+import java.util.Scanner;
+
+public class kiran1
+{
+	public static void main(String[] args)
+	{
+		Scanner Scan =new Scanner(System.in);
+	char n='A';
+	int i=n;
+	System.out.println(i);
+	}
+	}
+

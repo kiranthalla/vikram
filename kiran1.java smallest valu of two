@@ -1,0 +1,21 @@
+package mahesh1;
+
+import java.util.Scanner;
+
+public class kiran1
+{
+	public static void main(String[] args)
+	{
+		Scanner Scan =new Scanner(System.in);
+		int n=Scan.nextInt();
+		int m=Scan.nextInt();
+	    if(m>n)
+	    {
+		System.out.println(n);
+	    }
+	    else
+	    {
+	    System.out.println(m);
+	    }
+	}
+	}

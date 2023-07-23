@@ -1,0 +1,39 @@
+package mahesh1;
+public class FanApp 
+{
+	public static void main(String[] args) 
+	{
+	Fan1 f1= new Fan1("sony","black",4000);
+//    f1.brand="sony";
+//    f1.color="white";
+//    f1.cost=3000;
+    f1.airblowing();
+    f1.rotating();
+    System.out.println("============================");
+    new Fan1("samsung","red",2500).airblowing();
+   }
+   }
+    class Fan1
+   { 
+    	
+	 String brand;
+	 String color;
+	 int cost;
+	
+	 void airblowing()
+	 {
+	 System.out.println(brand+" "+"fan is airblowing");	
+	}
+	void rotating()
+	{
+	System.out.println(brand+" "+color+" "+"color is moving");
+	}
+	public Fan1(String a,String b,int c)
+	{
+		brand=a;
+		color=b;
+		cost=c;
+		
+	}
+	
+}

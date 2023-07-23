@@ -1,0 +1,110 @@
+package mahesh1;
+public class FanApp 
+{
+	public static void main(String[] args) 
+	{
+	LapTop f1= new LapTop();
+	f1.doingwork();
+    f1.proceser();
+    System.out.println("============================");
+    LapTop f2=new LapTop("sony");
+    f2.doingwork();
+    f2.proceser();
+    System.out.println("============================");
+    LapTop f3=new LapTop("samsung","blue");
+    f3.doingwork();
+    f3.proceser();
+    System.out.println("============================");
+    LapTop f4=new LapTop("vivo","red",50000);
+    f4.doingwork();
+    f4.proceser();
+    System.out.println("============================");
+    LapTop f5=new LapTop("gold",56000);
+    f5.doingwork();
+    f5.proceser();
+    System.out.println("============================");
+    LapTop f6=new LapTop(56000,"mi");
+    f6.doingwork();
+    f6.proceser();
+    System.out.println("============================");
+    LapTop f7=new LapTop("one+",30000,"yellow");
+    f7.doingwork();
+    f7.proceser();
+    System.out.println("============================");
+    LapTop f8=new LapTop(35000,"redmi","orange");
+    f8.doingwork();
+    f8.proceser();
+   }
+   }
+
+
+
+    class LapTop
+   { 
+	 String brand;
+	 String color;
+	 int cost;
+	 void doingwork()
+	 {
+		 System.out.println(color+" "+"doing work"+" "+brand+" "+"laptop");
+	 }
+	void proceser()
+	{
+	System.out.println(brand+" "+color+" "+"is processing"+" "+cost+" "+"hp laptop");
+	}
+	public LapTop()
+	{
+		brand="hp";
+		color="white";
+		cost=50000;	
+	}
+	
+	public LapTop(String a)
+	{
+		brand=a;
+		color="black";
+		cost=55000;	
+		
+	}
+	public LapTop(String a,String b)
+	{
+		brand=a;
+		color=b;
+		cost=59000;	
+		
+	}
+	public LapTop(String a,String b,int c)
+	{
+		brand=a;
+		color=b;
+		cost=c;	
+		
+	}
+	public LapTop(String a,int c)
+	{
+		brand=a;
+		cost=c;
+		color="light";
+	}
+	public LapTop(int c,String b)
+	{
+		cost=c;
+		color=b;
+		brand="lenova";
+		
+		
+	}
+	public LapTop(String a,int c,String b)
+	{
+		brand=a;
+		cost=c;
+		color=b;	
+}
+	public LapTop(int c,String a,String b)
+	{
+		cost=c;	
+		brand=a;
+		color=b;
+		
+	}
+	}
